@@ -22,20 +22,20 @@ public class Producto {
         return this;
     }
 
-    public ProductoId getId() {
-        return id;
+    public Long getId() {
+        return id.getId();
     }
 
 
 
-    public ProductoNombre getNombre() {
-        return nombre;
+    public String getNombre() {
+        return nombre.getNombre();
     }
 
 
 
-    public ProductoPrecio getPrecio() {
-        return precio;
+    public BigDecimal getPrecio() {
+        return precio.getPrecio();
     }
 
     

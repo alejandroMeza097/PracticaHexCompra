@@ -9,5 +9,7 @@ import lombok.NoArgsConstructor;
 @Getter
 public class ProductoId {
     private Long id;
+    
+ 
 
 }
