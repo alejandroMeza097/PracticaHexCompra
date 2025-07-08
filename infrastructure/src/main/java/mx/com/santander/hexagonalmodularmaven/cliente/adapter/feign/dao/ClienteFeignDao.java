@@ -1,8 +1,6 @@
 package mx.com.santander.hexagonalmodularmaven.cliente.adapter.feign.dao;
-
 import java.util.List;
 import java.util.stream.Collectors;
-
 import org.springframework.stereotype.Repository;
 
 import mx.com.santander.hexagonalmodularmaven.cliente.adapter.entity.ClienteEntity;
